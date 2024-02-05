@@ -1,0 +1,31 @@
+.navbar-container{
+  height:40px;
+  background-color: darkcyan;  
+
+  
+  padding: 10px 20px;
+  color:white;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.options,.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.option-home,
+.option-explore,
+.option-user,
+.option-cart{
+    margin:0 10px;
+}
+.icon-home,
+.icon-compass2,
+.icon-user,
+.icon-cart{
+    margin-right: 5px;
+}
